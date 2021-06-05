@@ -77,7 +77,7 @@ body{
     position: fixed;
     height :50vh;
     width: 200px;
-    background-color: black;
+    background-color: rgb(160, 9, 9);
     color: white;
     transition: 0.20s;
     left: 0;
