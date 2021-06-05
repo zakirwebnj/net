@@ -180,9 +180,9 @@ body{
 
 .home-text:hover{
     
-    box-shadow: 0 0 10px #ffffff,0 0 40px #ffffff , 0 0 10px #ffffff,0 0 40px #ffffff;
-    color: white;
-    text-shadow: 2px 2px 8px white;
+    box-shadow: 0 0 10px #3206aa,0 0 40px #160ca0 , 0 0 10px #1e0a92,0 0 40px #1c0486;
+    color: rgb(8, 2, 12);
+    text-shadow: 2px 2px 8px rgb(47, 218, 152);
 
 }
 
