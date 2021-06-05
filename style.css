@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    
+    background-image: url(bg.JPG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,9 +75,9 @@ body{
 /*   dynamic navigation bar ends  here*/
 .slide-bar{
     position: fixed;
-    height :50vh;
+    height :300vh;
     width: 200px;
-    background-color: rgb(160, 9, 9);
+    background-color: black;
     color: white;
     transition: 0.20s;
     left: 0;
@@ -100,7 +100,7 @@ body{
 .slide-bar span{
 
     display: block;
-    padding: 8%;
+    padding: 10%;
     
     
 }
