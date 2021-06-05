@@ -75,7 +75,7 @@ body{
 /*   dynamic navigation bar ends  here*/
 .slide-bar{
     position: fixed;
-    height :100vh;
+    height :50vh;
     width: 200px;
     background-color: black;
     color: white;
@@ -100,7 +100,7 @@ body{
 .slide-bar span{
 
     display: block;
-    padding: 10%;
+    padding: 8%;
     
     
 }
