@@ -5,7 +5,16 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="logic.js" ></script> 
         <style>
-        #photo{
+            #photo1{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-left: 20px;
+
+            }
+        .photo{
     
     border-radius: 100px;
     width: 100px;
@@ -33,7 +42,7 @@ body{
 .nav-bar{
     display: block;
     position:fixed;
-    background-color: black;
+    background-color: rgb(18, 9, 150);
     color: white;
     font-weight: 600;
     font-size: 1.6rem;
@@ -50,8 +59,8 @@ body{
     position: fixed;
     justify-content: center;
     background-color:gray;
-    width: 50%;
-    margin-left: 25%;
+    width: 17%;
+    margin-left: 40%;
     margin-top: 7px;
     border-radius: 15px;
     padding: 10px;
@@ -70,7 +79,7 @@ body{
 }
 .mini-nav-bar ul li{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     font-weight: 600;
     font-size: 1.2rem;
     color: white;
@@ -80,6 +89,7 @@ body{
     }
 .mini-nav-bar ul li a{
     text-decoration: none;
+    text-align: center;
     color: white;
 }
 .mini-nav-bar ul li:hover{
@@ -88,80 +98,7 @@ body{
         transition: 0.10s;
 }
 /*   dynamic navigation bar ends  here*/
-.slide-bar{
-    position: fixed;
-    height :50vh;
-    width: 200px;
-    background-color: rgb(160, 9, 9);
-    color: white;
-    transition: 0.20s;
-    left: 0;
-    top: 80px;
 
-}
-
-
-.slide-bar-hidden{
-
-
-    left:-200px;
-    
-    transition: 0.7s;
-    
-    
-}
-
-
-.slide-bar span{
-
-    display: block;
-    padding: 8%;
-    
-    
-}
-
-.slide-bar div span a{
-    text-decoration: none;
-    color: white;
-}
-
-.slide-bar div span a i{
-
-    padding-right: 7%;
-}
-
-
-.slide-bar div span{
-
-   
-    padding: 7%;
-    padding-left: 15%;
-    font-weight: 400;
-    font-size: 1.2rem;
-	
-    
-}
-
-.slide-bar div span:hover{
-
-    /*background-color:  #3498db;*/
-    background-image: linear-gradient(rgb(100, 174, 218),rgb(16, 61, 143));
-}
-
-
-
-
-.slide-bar div img{
-
-    padding: 2%;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    opacity: 0.9;
-    margin-left: 25%;
-    margin: 15%;
-
-}
 
 .fa{
 
@@ -355,7 +292,7 @@ body{
  <!--navigation bar starts here -->
 <nav class="nav-bar">
  
-<span><img id=photo src="photo3.jpg" alt=""></span>
+<span><img class=photo src="photo3.jpg" alt=""></span>
 
  <marquee> <span >Hi..!   MY NAME IS ZAKIR YOUR ADMIN   MY CONTACT NUMBER IS 7051483299 if you have any problem contact me</span></marquee>
 </nav>
@@ -365,7 +302,10 @@ body{
             <ul>
                 <li><a href="index1.html">MY WEB PAGE</a></li>
            </ul>
+   
         </nav>
+                
+<span style="float: left;"><img id=photo1 src="photo3.jpg" alt=""></span>
         
          <!--dynamic nav bar ends here-->
         <!--slide bar code goes here-->
@@ -400,7 +340,7 @@ body{
                                 setInterval(second,4000);
                                 setInterval(third,6000);
                     </script>
-                </div>
+                
                 </div>
                 </div>
                 <div class="about-section" id="aboutSection">
@@ -414,6 +354,6 @@ body{
                              that i learned is that the techonology releted computers keep on changing very freequently and to remein 
                              in IT industry we need to upgrade ourselves with the latist techonology which can be achived
                               through online courses. </p>
-                    </div></body>
+                    </div></</body>
    
 </html>
