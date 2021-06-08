@@ -17,7 +17,39 @@ z.addEventListener('click', function(e){
 });
 
 /*-----------------slide show code-------------------------*/
-       
+
+var images = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
+
+var next = document.querySelector('.next');
+var prev = document.querySelector('.prev');
+console.log(prev);
+var lmt = images.length;
+
+var i = 2;
+
+
+
+next.addEventListener('click',function(){
+
+    if(i > lmt-1)
+    {
+        i = 0;
+    }
+    document.getElementById('1').src = images[i];
+    console.log("value of i inside the next listner  is "+ i);
+    i++;
+    
+});
+
+prev.addEventListener('click',function(){
+    if(i < 0)
+    {
+        i=lmt-1;
+    }
+    document.getElementById('1').src = images[i];
+    console.log("value of i inside the prev listner  is "+ i);
+    i--;
+});
 
 
 
