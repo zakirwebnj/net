@@ -97,7 +97,7 @@ body{
 .mini-nav-bar ul li:hover{
 
     /*background-color: #3498db;*/
-    background-image: linear-gradient(rgb(100, 174, 218),rgb(16, 61, 143));
+    background-image: linear-gradient(rgb(12, 16, 19),rgb(14, 15, 17));
     
     transition: 0.5s;
 }
@@ -164,7 +164,7 @@ body{
 .slide-bar div span:hover{
 
     /*background-color:  #3498db;*/
-    background-image: linear-gradient(rgb(100, 174, 218),rgb(16, 61, 143));
+    background-image: linear-gradient(rgb(48, 124, 149),rgb(6, 6, 7));
 }
 
 
@@ -223,7 +223,7 @@ body{
 }
 
 .lightbox{
-    border: 2px solid blue;
+    border: 2px solid rgb(9, 9, 10);
     display: flex;
     align-items: center;
     justify-items: center;
