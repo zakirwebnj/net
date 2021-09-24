@@ -260,6 +260,7 @@ body{
     margin: 2% 2% 1% 220px;
     background-size: cover;
     height:82vh; 
+    position: absolute;
        
 }
 
