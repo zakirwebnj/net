@@ -230,3 +230,19 @@ footer{
 .center{
     text-align: center;
 }
+#main{
+    position: relative;
+    padding: 10px;
+    
+
+    height: 540px;
+    width: 99.2%;
+}
+img{
+    height: 540px;
+    width: 99.2%;
+    float: left 10px;
+}
+#slide{
+
+}
