@@ -217,6 +217,10 @@ footer{
 }
 
 .btn{
+    
+    text-decoration: none;
+    list-style: none;
+    
     padding: 6px 20px;
     border: 2px solid white;
     background-color: brown;
@@ -224,7 +228,13 @@ footer{
     margin: 17px;
     font-size: 1.5rem;
     border-radius: 10px;
-    cursor:pointer;
+
+}
+.btn a{
+    color: white;
+
+    text-decoration: none;
+
 }
 
 .center{
