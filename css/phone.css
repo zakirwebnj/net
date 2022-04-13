@@ -66,3 +66,16 @@
     font-size: 13px;
     padding: 4px 8px;
 }
+#main{
+    position: relative;
+    padding: 10px;
+    
+
+    height: 540px;
+    width: 79.2%;
+}
+img{
+    height: 540px;
+    width: 79.2%;
+    float: left 10px;
+}
